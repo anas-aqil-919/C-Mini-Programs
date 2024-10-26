@@ -3,17 +3,17 @@
 
 int main(){
     //Declare variable
-    int c, f;
+    float c, f;
     
     //Take input
     printf("Enter the Celsius : ");
-    scanf("%d", &c);
+    scanf("%f", &c);
     
     //Calculate Fahrenheit
     f = c*(9.0/5.0) + 32;
     
     //print Fahrenheit
-    printf("Fahrenheit : %d", f);
+    printf("Fahrenheit : %f", f);
     
     return 0;
 }
